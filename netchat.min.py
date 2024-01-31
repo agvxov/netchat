@@ -7,7 +7,7 @@ S.signal(2,lambda a,b:(s.close(),exit(0)))
 print(f"Listening on {sys.argv[1]}...")
 def U(i):
 	i[0].settimeout(1)
-	return ["anon"+str((id("")%999+1)),i[0]]
+	return ["anon"+str((id(i[0])%999+1)),i[0]]
 u=[]
 while 1:
 	try:u+=[(U(s.accept()))]
