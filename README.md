@@ -7,7 +7,7 @@ Apparently,
 too easy,
 so I started pushing for the minimun number of characters
 with which all initial features keep working.
-Hence `net_chat.full.py` & `net\_chat.min.py.
+Hence `net_chat.full.py` & `net\_chat.min.py`.
 
 To run the server:
 ```Bash
