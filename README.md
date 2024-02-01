@@ -1,13 +1,12 @@
 # Netc(h)at
 > minimalist webchat where the client is any generic netcat implementation
 
-I saw someone posting about a program like this one,
-I wondered how hard could it be.
-Apparently,
-too easy,
-so I started pushing for the minimun number of characters
-with which all initial features keep working.
-Hence `net_chat.full.py` & `net\_chat.min.py`.
+I wrote this for fun, because of someone's influence.
+
+Versions:
++ **netchat.full.py**: original version; was too easy to write
++ **netchat.min.py**: modified version of *full* with various tricks deployed to make it as short (in character and line count) as possible
++ **netchat.balance.py**: modified version of *full* which uses ASCII escape codes to manipulate the cursor in such ways to not interupt message typing by printing incoming messages over yours
 
 To run the server:
 ```Bash
